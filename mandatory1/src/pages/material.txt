@@ -1,0 +1,17 @@
+Home: 
+
+About:
+
+Contact:
+
+Clean code: Debugging (ESLint, Prettier - Promises, arrow functions vs normal functions, coding standards etc.)
+
+Node.js, frameworks : node.js, express, etc. 
+
+Vercel: -- || --
+
+Terminal / git commands: -- || --
+
+REST API: REST API Design. Design of endpoints. Usinger routers folder vs. one file.
+
+Serverside rendering vs. userside rendering: -- || --
