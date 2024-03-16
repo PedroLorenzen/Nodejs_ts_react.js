@@ -36,6 +36,9 @@
       "react-app/jest",
       "plugin:prettier/recommended"
     ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
     "rules": {
       "prettier/prettier": "error",
       "@typescript-eslint/no-unnecessary-condition": "error",
