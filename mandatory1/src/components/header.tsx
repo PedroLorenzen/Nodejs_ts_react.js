@@ -25,9 +25,9 @@ function header() {
                 </div>
                 <div className="relative group">
                     <a href="/" >
-                        <button type="button" className="py-2 px-3 hover:bg-gray-700 hover:text-white hover:rounded-lg">Clean Code</button>
+                        <button type="button" className="py-4 px-3 hover:bg-gray-700 hover:text-white hover:rounded-lg">Clean Code</button>
                     </a>
-                    <div className="absolute hidden group-hover:block bg-gray-700 rounded-lg mt-3">
+                    <div className="absolute hidden group-hover:block bg-gray-700 rounded-lg ">
                         <a href="#esLint" className="block py-2 px-4 hover:bg-gray-600 hover:text-white hover: rounded-lg">
                             ESLint
                         </a>
