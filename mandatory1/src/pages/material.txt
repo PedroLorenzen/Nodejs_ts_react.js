@@ -15,3 +15,5 @@ Terminal / git commands: -- || --
 REST API: REST API Design. Design of endpoints. Usinger routers folder vs. one file.
 
 Serverside rendering vs. userside rendering: -- || --
+
+Inspiration: https://framer-template.webflow.io/
