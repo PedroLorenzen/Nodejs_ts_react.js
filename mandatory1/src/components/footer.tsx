@@ -14,11 +14,7 @@ const footer = () => {
                     </div>
 
                     <div>
-                        <img
-                            src={logo}
-                            alt="Footer Logo"
-                            className="h-12 sd:h-12 md:h-24 lg:h-32 rounded-lg"
-                        />
+                        <img src={logo} alt="Footer Logo" className="h-12 sd:h-12 md:h-24 lg:h-32 rounded-lg" />
                     </div>
 
                     <div className="flex items-center space-x-4">
