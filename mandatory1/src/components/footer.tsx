@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./assets/images/logo.png";
+import logo from "../assets/images/logo.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa"; // Assuming you're using React Icons
 
 const footer = () => {

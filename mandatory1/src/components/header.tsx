@@ -1,4 +1,4 @@
-import logo from "./assets/images/logo.png";
+import logo from "../assets/images/logo.png";
 
 function header() {
   return (
@@ -23,60 +23,113 @@ function header() {
           </div>
 
           <div className="hidden md:flex items-center space-x-1">
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              Home
-            </a>
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              About
-            </a>
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              Clean Code
-            </a>
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              Vercel
-            </a>
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              Node Framework
-            </a>
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              Rendering
-            </a>
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              RestAPI
-            </a>
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              Terminal Commands
-            </a>
-            <a
-              href="/"
-              className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
-            >
-              Contact
-            </a>
+            <div>
+              <a
+                href="/"
+                className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
+              >
+                Home
+              </a>
+            </div>
+            <div>
+              <a
+                href="/"
+                className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
+              >
+                About
+              </a>
+            </div>
+            <div className="relative group">
+              <button className="py-5 px-3 hover:bg-gray-700 hover:text-white">
+                Clean Code
+              </button>
+              <div className="absolute hidden group-hover:block bg-gray-700">
+                <a
+                  href="#esLint"
+                  className="block py-2 px-4 hover:bg-gray-600 hover:text-white"
+                >
+                  ESLint
+                </a>
+                <a
+                  href="#prettier"
+                  className="block py-2 px-4 hover:bg-gray-600 hover:text-white"
+                >
+                  Prettier
+                </a>
+                <a
+                  href="#promises"
+                  className="block py-2 px-4 hover:bg-gray-600 hover:text-white"
+                >
+                  Promises
+                </a>
+                <a
+                  href="#functions"
+                  className="block py-2 px-4 hover:bg-gray-600 hover:text-white"
+                >
+                  Functions
+                </a>
+                <a
+                  href="#codingStandards"
+                  className="block py-2 px-4 hover:bg-gray-600 hover:text-white"
+                >
+                  Coding Standards
+                </a>
+                <a
+                  href="#imports"
+                  className="block py-2 px-4 hover:bg-gray-600 hover:text-white"
+                >
+                  Imports
+                </a>
+              </div>
+            </div>
+            <div>
+              <a
+                href="/"
+                className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
+              >
+                Vercel
+              </a>
+            </div>
+            <div>
+              <a
+                href="/"
+                className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
+              >
+                Node Framework
+              </a>
+            </div>
+            <div>
+              <a
+                href="/"
+                className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
+              >
+                Rendering
+              </a>
+            </div>
+            <div>
+              <a
+                href="/"
+                className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
+              >
+                RestAPI
+              </a>
+            </div>
+            <div>
+              <a
+                href="/"
+                className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
+              >
+                Terminal Commands
+              </a>
+            </div>
+            <div>
+              <a
+                href="/"
+                className="py-5 px-3 hover:bg-gray-700 hover:text-white hover: rounded-lg"
+              >
+                Contact
+              </a>
+            </div>
           </div>
         </div>
       </div>

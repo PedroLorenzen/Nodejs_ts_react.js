@@ -4,7 +4,7 @@ About:
 
 Contact:
 
-Clean code: Debugging (ESLint, Prettier - Promises, arrow functions vs normal functions, coding standards etc.)
+Clean code: Debugging (ESLint, Prettier - Promises, arrow functions vs normal functions, coding standards, imports etc.)
 
 Node.js, frameworks : node.js, express, etc. 
 
