@@ -16,18 +16,44 @@ function Contact() {
                 <div className="max-w-screen-md mx-auto">
                     <form action="#" className="flex flex-col gap-4">
                         <div>
-                            <label htmlFor="email" className="text-lg font-medium">Your email</label>
-                            <input type="email" id="email" placeholder="name@example.com" required className="w-full p-2 rounded-lg bg-stone-700 border border-stone-500 mt-2" />
+                            <label htmlFor="email" className="text-lg font-medium">
+                                Your email
+                            </label>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="name@example.com"
+                                required
+                                className="w-full p-2 rounded-lg bg-stone-700 border border-stone-500 mt-2"
+                            />
                         </div>
                         <div>
-                            <label htmlFor="subject" className="text-lg font-medium">Subject</label>
-                            <input type="text" id="subject" placeholder="Subject" required className="w-full p-2 rounded-lg bg-stone-700 border border-stone-500 mt-2" />
+                            <label htmlFor="subject" className="text-lg font-medium">
+                                Subject
+                            </label>
+                            <input
+                                type="text"
+                                id="subject"
+                                placeholder="Subject"
+                                required
+                                className="w-full p-2 rounded-lg bg-stone-700 border border-stone-500 mt-2"
+                            />
                         </div>
                         <div>
-                            <label htmlFor="message" className="text-lg font-medium">Your message</label>
-                            <textarea id="message" rows={6} placeholder="Your message" required className="w-full p-2 rounded-lg bg-stone-700 border border-stone-500 mt-2"></textarea>
+                            <label htmlFor="message" className="text-lg font-medium">
+                                Your message
+                            </label>
+                            <textarea
+                                id="message"
+                                rows={6}
+                                placeholder="Your message"
+                                required
+                                className="w-full p-2 rounded-lg bg-stone-700 border border-stone-500 mt-2"
+                            ></textarea>
                         </div>
-                        <button type="submit" className="self-center px-4 py-2 bg-stone-500 hover:bg-stone-600 rounded-lg font-semibold">Send Message</button>
+                        <button type="submit" className="self-center px-4 py-2 bg-stone-500 hover:bg-stone-600 rounded-lg font-semibold">
+                            Send Message
+                        </button>
                     </form>
                 </div>
             </div>
