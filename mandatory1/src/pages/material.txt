@@ -1,8 +1,8 @@
-Home: 
+Home: done
 
-About:
+About: done
 
-Contact:
+Contact: done
 
 DDCHECK! Clean code: Debugging (ESLint, Prettier - Promises, arrow functions vs normal functions, coding standards, imports etc.)
 

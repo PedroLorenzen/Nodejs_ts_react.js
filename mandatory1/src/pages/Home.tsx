@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Menu from '../components/menu';
 import homepicture_top_1 from '../assets/images/home_top_1.jpg';
 
 function Home() {
@@ -30,25 +31,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-3 gap-12 m-10">
-                <div className="p-4 shadow-md rounded-lg text-center">
-                    <h1>Clean Code</h1>
-                </div>
-                <div className="p-4 shadow-md rounded-lg text-center">
-                    <h1>Vercel</h1>
-                </div>
-                <div className="p-4 shadow-md rounded-lg text-center">
-                    <h1>Node Framework</h1>
-                </div>
-                <div className="p-4 shadow-md rounded-lg text-center">
-                    <h1>Rendering</h1>
-                </div>
-                <div className="p-4 shadow-md rounded-lg text-center">
-                    <h1>Rest API</h1>
-                </div>
-                <div className="p-4 shadow-md rounded-lg text-center">
-                    <h1>Terminal commands</h1>
-                </div>
+            <div>
+                <Menu />
             </div>
             <div>
                 <Footer />

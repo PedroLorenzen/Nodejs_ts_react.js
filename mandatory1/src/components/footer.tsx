@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Assuming you're using 
 
 const footer = () => {
     return (
-        <footer className="bg-gray-800 text-white z-20">
+        <footer className="bg-stone-900 text-white z-20">
             <div className="max-w-4xl mx-auto px-4 py-6">
                 <div className="flex justify-between items-center">
                     <div className="flex flex-col space-y-2 text-center">
