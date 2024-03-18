@@ -66,7 +66,7 @@ function header() {
                     </a>
                 </div>
                 <div>
-                    <a href="/" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
+                    <a href="/restapi" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
                         RestAPI
                     </a>
                 </div>

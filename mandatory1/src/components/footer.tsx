@@ -6,9 +6,9 @@ const footer = () => {
     return (
         <footer className="bg-stone-900 text-white z-20">
             <div className="max-w-4xl mx-auto px-4 py-6">
-                <div className="flex justify-between items-center">
-                    <div className="flex flex-col space-y-2 text-center">
-                        <span>Christian Pedro Fernandez Lorenzen</span>
+                <div className="grid grid-cols-3 w-full flex justify-items-center items-center">
+                    <div className="flex flex-col space-y-2 text-center mr-40">
+                        <span>Christian P. F. Lorenzen</span>
                         <span>+45 29 28 27 54</span>
                         <span>christianplorenzen@outlook.com</span>
                     </div>
@@ -17,7 +17,7 @@ const footer = () => {
                         <img src={logo} alt="Footer Logo" className="h-12 sd:h-12 md:h-24 lg:h-32 rounded-lg" />
                     </div>
 
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-4 ml-40">
                         <a
                             href="https://www.linkedin.com/in/christian-pedro-fernandez-lorenzen-296151238/"
                             title="LinkedIn Profile"
