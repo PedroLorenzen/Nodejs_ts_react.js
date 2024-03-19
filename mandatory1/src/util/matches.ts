@@ -12,7 +12,7 @@ interface DogImageResponse {
     status: string;
 }
 
-export default async function getMatches(numberOfMatches = 5): Promise<(DogImageResponse & Profile)[]> {
+export default async function getMatches(numberOfMatches = 6): Promise<(DogImageResponse & Profile)[]> {
     const matches: (DogImageResponse & Profile)[] = [];
     for (let i = 0; i < numberOfMatches; i++) {
         const response = await fetch('https://dog.ceo/api/breeds/image/random');

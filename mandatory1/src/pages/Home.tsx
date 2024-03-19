@@ -22,7 +22,7 @@ function Home() {
                             <a href="/" className="py-5 px-3">
                                 <button
                                     type="button"
-                                    className="bg-transparent text-stone-700 rounded-lg font-semibold hover:bg-stone-500 py-2 px-4 border-stone-800 border-2"
+                                    className="btn"
                                 >
                                     here goes the button
                                 </button>

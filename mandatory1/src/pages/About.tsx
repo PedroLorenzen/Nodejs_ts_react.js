@@ -20,7 +20,7 @@ function About() {
                     <a href="/contact" className="py-10 px-3">
                         <button
                             type="button"
-                            className="bg-transparent text-white rounded-lg font-semibold hover:bg-stone-500 py-2 px-4 border border-stone-500"
+                            className="btn"
                         >
                             Contact me here
                         </button>

@@ -51,7 +51,7 @@ function Contact() {
                                 className="w-full p-2 rounded-lg bg-stone-700 border border-stone-500 mt-2"
                             ></textarea>
                         </div>
-                        <button type="submit" className="self-center px-4 py-2 bg-stone-500 hover:bg-stone-600 rounded-lg font-semibold">
+                        <button type="submit" className="btn">
                             Send Message
                         </button>
                     </form>

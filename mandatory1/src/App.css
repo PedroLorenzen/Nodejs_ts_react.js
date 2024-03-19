@@ -1,3 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn{
+        @apply self-center px-4 py-2 bg-stone-500 hover:bg-stone-600 rounded-lg font-semibold;
+    }
+
+    .menuHeadlines {
+        @apply text-xl font-medium block hover:scale-125 transition duration-300 ease-in-out;
+    }
+    .menuSubCategories{
+        @apply p-3 border bg-stone-400 hover:bg-stone-700 hover:text-white rounded-lg hover:cursor-pointer;
+    }
+}
+
 .App {
     text-align: center;
 }

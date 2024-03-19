@@ -24,7 +24,7 @@ function header() {
                     </a>
                 </div>
                 <div className="relative group">
-                    <a href="/">
+                    <a href="/cleanCode">
                         <button type="button" className="py-4 px-3 hover:bg-stone-800 hover:text-white hover:rounded-lg">
                             Clean Code
                         </button>
@@ -66,8 +66,8 @@ function header() {
                     </a>
                 </div>
                 <div>
-                    <a href="/restapi" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
-                        RestAPI
+                    <a href="/Projects" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
+                        Projects
                     </a>
                 </div>
                 <div>
