@@ -18,10 +18,7 @@ function About() {
                         I'm studying Computer Science and now exploring the world of React.js, TypeScript and Node.js.
                     </h3>
                     <a href="/contact" className="py-10 px-3">
-                        <button
-                            type="button"
-                            className="btn"
-                        >
+                        <button type="button" className="btn">
                             Contact me here
                         </button>
                     </a>

@@ -20,10 +20,7 @@ function Home() {
                             </h1>
                             <h1 className="text-3xl text-stone-800 font-bold my-4">Welcome to my first node.js project</h1>
                             <a href="/" className="py-5 px-3">
-                                <button
-                                    type="button"
-                                    className="btn"
-                                >
+                                <button type="button" className="btn">
                                     here goes the button
                                 </button>
                             </a>

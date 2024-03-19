@@ -79,7 +79,7 @@ function Menu() {
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-            <Link to="/cleancode" className="menuHeadlines">
+                <Link to="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Node Framework</p>
                 </Link>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
@@ -116,7 +116,7 @@ function Menu() {
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-            <Link to="/cleancode" className="menuHeadlines">
+                <Link to="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Rendering</p>
                 </Link>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
@@ -153,7 +153,7 @@ function Menu() {
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-            <Link to="/cleancode" className="menuHeadlines">
+                <Link to="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Projects</p>
                 </Link>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
@@ -190,7 +190,7 @@ function Menu() {
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-            <Link to="/cleancode" className="menuHeadlines">
+                <Link to="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Terminal Commands</p>
                 </Link>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
