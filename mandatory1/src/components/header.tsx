@@ -24,7 +24,7 @@ function header() {
                     </a>
                 </div>
                 <div className="relative group">
-                    <a href="/cleanCode">
+                    <a href="/cleancode">
                         <button type="button" className="headerRelativeHeadlines">
                             Clean Code
                         </button>
@@ -51,56 +51,38 @@ function header() {
                     </div>
                 </div>
                 <div className="relative group">
-                    <a href="/cleanCode">
+                    <a href="/Node">
                         <button type="button" className="headerRelativeHeadlines">
-                            Clean Code
+                            Node
                         </button>
                     </a>
                     <div className="headerDropdownDiv">
-                        <a href="/cleancode/#debugging" className="headerDropdownElement">
-                            Debugging
+                        <a href="/cleancode/#node" className="headerDropdownElement">
+                            What is Node
                         </a>
-                        <a href="/cleancode/#promises" className="headerDropdownElement">
-                            Promises
+                        <a href="/cleancode/#express" className="headerDropdownElement">
+                            Express
                         </a>
-                        <a href="/cleancode/#prettier" className="headerDropdownElement">
-                            Prettier
+                        <a href="/cleancode/#terminalNode" className="headerDropdownElement">
+                            Terminal Commands
                         </a>
-                        <a href="/cleancode/#functions" className="headerDropdownElement">
-                            Functions
-                        </a>
-                        <a href="/cleancode/#codingStandards" className="headerDropdownElement">
-                            Coding Standards
-                        </a>
-                        <a href="/cleancode/#imports" className="headerDropdownElement">
+                        <a href="/cleancode/#importsNode" className="headerDropdownElement">
                             Imports
                         </a>
                     </div>
                 </div>
                 <div className="relative group">
-                    <a href="/cleanCode">
+                    <a href="/rendering">
                         <button type="button" className="headerRelativeHeadlines">
-                            Clean Code
+                            Rendering
                         </button>
                     </a>
                     <div className="headerDropdownDiv">
                         <a href="/cleancode/#debugging" className="headerDropdownElement">
-                            Debugging
+                            Server
                         </a>
                         <a href="/cleancode/#promises" className="headerDropdownElement">
-                            Promises
-                        </a>
-                        <a href="/cleancode/#prettier" className="headerDropdownElement">
-                            Prettier
-                        </a>
-                        <a href="/cleancode/#functions" className="headerDropdownElement">
-                            Functions
-                        </a>
-                        <a href="/cleancode/#codingStandards" className="headerDropdownElement">
-                            Coding Standards
-                        </a>
-                        <a href="/cleancode/#imports" className="headerDropdownElement">
-                            Imports
+                            Client
                         </a>
                     </div>
                 </div>

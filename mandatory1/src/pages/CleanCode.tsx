@@ -21,22 +21,19 @@ function CleanCode() {
                 <div className="infoInnerDiv" id="debugging">
                     <h2 className="infoHeadline">Debugging (Console.log, browser, ESLint)</h2>
                     <p className="infoParagraph">
-                        Utilizing console.log helps developers to quickly insert checkpoints in their code, providing visibility into variable states,
-                        function returns, or to simply confirm code execution paths. It's a fundamental method for dynamic logging. It can though lead
-                        to log pollution if not handled correctly and affect performance.{' '}
+                        When using console.log you can easily and quickly make checkpoints your code that gives you information about what your code
+                        returns, executes or prints. It's a good way to debug your code and see what's happening in your code. It's a fundamental
+                        method for dynamic logging. It can though lead to log pollution if not handled correctly and affect performance.
                     </p>
                     <p className="infoParagraph">
-                        ESLint performs static analysis on your codebase, identifying syntactical and logical errors before runtime. Together with its
-                        pattern recognition and automated refactoring, ESLint has highly customizable rule sets, which can be tailored to match
-                        specific project guidelines or coding conventions. It allows for automated code quality checks during development or before
-                        code merges.{' '}
+                        ESLint is a tool that automatically analyses your codebase and identifies errors in your syntax and logic before runtime. It
+                        has automatic refactoring that can fix the issues it finds, even though it then will change the code and potentially introduce
+                        new bugs or confuse you. I use it to scan my code and give me feedback on how to improve my code.
                     </p>
                     <p className="infoParagraphBottom">
-                        Modern browsers offer integrated debugging environments that support a plethora of diagnostic tools. These tools gives the
-                        user the ability to set breakpoints, step through code and examine call stacks. It facilitates a deeper understanding of
-                        execution flows and performance bottlenecks. There are many more tools that takes time to learn but are very valuable when
-                        debugging.{' '}
-                    </p>{' '}
+                        Browsers today has integrated debugging tools which you can use to set breakpoints, step through code and examine call stacks.
+                        It helps me to understand where the code is failing and why. 
+                    </p>
                 </div>
                 <div className="infoPicDiv">
                     <img src={esLint} alt="." className="infoPic" />
@@ -49,15 +46,14 @@ function CleanCode() {
                 <div className="infoInnerDiv" id="promises">
                     <h2 className="infoHeadline">Promises (async, await, then, catch)</h2>
                     <p className="infoParagraph">
-                        Promises in JavaScript have made dealing with asynchronous tasks a lot easier. Using async and await allows for a more
-                        intuitive, synchronous-style flow of execution. This syntactic sugar lets developers pause where the code is waiting for a
-                        Promise without compomising the responsiveness of the application. Even though Javascript is single-threaded it manages tasks
-                        efficiently thanks to its event loop deciding the execution sequence.
+                        Promises in JavaScript makes using asynchronous code easier to read and write. When using async and await it allows for a more intuitive flow of execution.
+                        This syntactic sugar lets you pause your code while waiting for a Promise to settle without blocking the execution of the code.
+                        Even though Javascript is single-threaded it manages tasks efficiently thanks to its event loop deciding the execution sequence.
                     </p>
                     <p className="infoParagraphBottom">
                         Putting async before a function means you're going to use await in the function, which waits for a Promise to settle (either
-                        complete or fail) before continuing execution. This makes your code much cleaner and saves you from falling into the dreaded
-                        Callback Hell or Pyramid of Doom where you'd have a lot of callbacks nested inside callbacks, making everything hard to read
+                        complete or fail) before continuing execution. This makes my code much cleaner and saves me from falling into the dreaded
+                        Callback Hell or Pyramid of Doom where i'd have a lot of callbacks nested inside callbacks, making everything harder to read
                         and debug.
                     </p>
                 </div>

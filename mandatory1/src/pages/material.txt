@@ -6,7 +6,7 @@ Contact: done
 
 DDCHECK! Clean code: Debugging (ESLint) vv, Promises, prettier vv, arrow functions vs normal functions, coding standards, imports etc.)
 
-Node.js, frameworks : node.js, express, etc. 
+Node.js, frameworks : node.js, express, etc. 1. What is node 2. express 3. terminal commands 4. imports
 
 Vercel: -- || --
 

@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import CleanCode from './pages/CleanCode';
+import Rendering from './pages/Rendering';
+import Node from './pages/Node';
 import { DogInder } from './pages/Projects';
 
 function App() {
@@ -14,8 +16,10 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/Projects" element={<DogInder />} />
-                <Route path="/CleanCode" element={<CleanCode />} />
+                <Route path="/projects" element={<DogInder />} />
+                <Route path="/cleancode" element={<CleanCode />} />
+                <Route path="/node" element={<Node />} />
+                <Route path="/rendering" element={<Rendering />} />
             </Routes>
         </Router>
     );
