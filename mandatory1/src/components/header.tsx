@@ -25,58 +25,168 @@ function header() {
                 </div>
                 <div className="relative group">
                     <a href="/cleanCode">
-                        <button type="button" className="py-4 px-3 hover:bg-stone-800 hover:text-white hover:rounded-lg">
+                        <button type="button" className="headerRelativeHeadlines">
                             Clean Code
                         </button>
                     </a>
-                    <div className="absolute hidden group-hover:block bg-stone-800 rounded-lg ">
-                        <a href="#esLint" className="block py-2 px-4 hover:bg-stone-700  hover:text-white hover: rounded-lg">
-                            ESLint
+                    <div className="headerDropdownDiv">
+                        <a href="/cleancode/#debugging" className="headerDropdownElement">
+                            Debugging
                         </a>
-                        <a href="#prettier" className="block py-2 px-4 hover:bg-stone-700 hover:text-white hover: rounded-lg">
-                            Prettier
-                        </a>
-                        <a href="#promises" className="block py-2 px-4 hover:bg-stone-700 hover:text-white hover: rounded-lg">
+                        <a href="/cleancode/#promises" className="headerDropdownElement">
                             Promises
                         </a>
-                        <a href="#functions" className="block py-2 px-4 hover:bg-stone-700 hover:text-white hover: rounded-lg">
+                        <a href="/cleancode/#prettier" className="headerDropdownElement">
+                            Prettier
+                        </a>
+                        <a href="/cleancode/#arrow" className="headerDropdownElement">
                             Functions
                         </a>
-                        <a href="#codingStandards" className="block py-2 px-4 hover:bg-stone-700 hover:text-white hover: rounded-lg">
+                        <a href="/cleancode/#codingStandards" className="headerDropdownElement">
                             Coding Standards
                         </a>
-                        <a href="#imports" className="block py-2 px-4 hover:bg-stone-700 hover:text-white hover: rounded-lg">
+                        <a href="/cleancode/#imports" className="headerDropdownElement">
+                            Imports
+                        </a>
+                    </div>
+                </div>
+                <div className="relative group">
+                    <a href="/cleanCode">
+                        <button type="button" className="headerRelativeHeadlines">
+                            Clean Code
+                        </button>
+                    </a>
+                    <div className="headerDropdownDiv">
+                        <a href="/cleancode/#debugging" className="headerDropdownElement">
+                            Debugging
+                        </a>
+                        <a href="/cleancode/#promises" className="headerDropdownElement">
+                            Promises
+                        </a>
+                        <a href="/cleancode/#prettier" className="headerDropdownElement">
+                            Prettier
+                        </a>
+                        <a href="/cleancode/#functions" className="headerDropdownElement">
+                            Functions
+                        </a>
+                        <a href="/cleancode/#codingStandards" className="headerDropdownElement">
+                            Coding Standards
+                        </a>
+                        <a href="/cleancode/#imports" className="headerDropdownElement">
+                            Imports
+                        </a>
+                    </div>
+                </div>
+                <div className="relative group">
+                    <a href="/cleanCode">
+                        <button type="button" className="headerRelativeHeadlines">
+                            Clean Code
+                        </button>
+                    </a>
+                    <div className="headerDropdownDiv">
+                        <a href="/cleancode/#debugging" className="headerDropdownElement">
+                            Debugging
+                        </a>
+                        <a href="/cleancode/#promises" className="headerDropdownElement">
+                            Promises
+                        </a>
+                        <a href="/cleancode/#prettier" className="headerDropdownElement">
+                            Prettier
+                        </a>
+                        <a href="/cleancode/#functions" className="headerDropdownElement">
+                            Functions
+                        </a>
+                        <a href="/cleancode/#codingStandards" className="headerDropdownElement">
+                            Coding Standards
+                        </a>
+                        <a href="/cleancode/#imports" className="headerDropdownElement">
+                            Imports
+                        </a>
+                    </div>
+                </div>
+                <div className="relative group">
+                    <a href="/cleanCode">
+                        <button type="button" className="headerRelativeHeadlines">
+                            Clean Code
+                        </button>
+                    </a>
+                    <div className="headerDropdownDiv">
+                        <a href="/cleancode/#debugging" className="headerDropdownElement">
+                            Debugging
+                        </a>
+                        <a href="/cleancode/#promises" className="headerDropdownElement">
+                            Promises
+                        </a>
+                        <a href="/cleancode/#prettier" className="headerDropdownElement">
+                            Prettier
+                        </a>
+                        <a href="/cleancode/#functions" className="headerDropdownElement">
+                            Functions
+                        </a>
+                        <a href="/cleancode/#codingStandards" className="headerDropdownElement">
+                            Coding Standards
+                        </a>
+                        <a href="/cleancode/#imports" className="headerDropdownElement">
+                            Imports
+                        </a>
+                    </div>
+                </div>
+                <div className="relative group">
+                    <a href="/cleanCode">
+                        <button type="button" className="headerRelativeHeadlines">
+                            Clean Code
+                        </button>
+                    </a>
+                    <div className="headerDropdownDiv">
+                        <a href="/cleancode/#debugging" className="headerDropdownElement">
+                            Debugging
+                        </a>
+                        <a href="/cleancode/#promises" className="headerDropdownElement">
+                            Promises
+                        </a>
+                        <a href="/cleancode/#prettier" className="headerDropdownElement">
+                            Prettier
+                        </a>
+                        <a href="/cleancode/#functions" className="headerDropdownElement">
+                            Functions
+                        </a>
+                        <a href="/cleancode/#codingStandards" className="headerDropdownElement">
+                            Coding Standards
+                        </a>
+                        <a href="/cleancode/#imports" className="headerDropdownElement">
+                            Imports
+                        </a>
+                    </div>
+                </div>
+                <div className="relative group">
+                    <a href="/cleanCode">
+                        <button type="button" className="headerRelativeHeadlines">
+                            Clean Code
+                        </button>
+                    </a>
+                    <div className="headerDropdownDiv">
+                        <a href="/cleancode/#debugging" className="headerDropdownElement">
+                            Debugging
+                        </a>
+                        <a href="/cleancode/#promises" className="headerDropdownElement">
+                            Promises
+                        </a>
+                        <a href="/cleancode/#prettier" className="headerDropdownElement">
+                            Prettier
+                        </a>
+                        <a href="/cleancode/#functions" className="headerDropdownElement">
+                            Functions
+                        </a>
+                        <a href="/cleancode/#codingStandards" className="headerDropdownElement">
+                            Coding Standards
+                        </a>
+                        <a href="/cleancode/#imports" className="headerDropdownElement">
                             Imports
                         </a>
                     </div>
                 </div>
                 <div>
-                    <a href="/" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
-                        Vercel
-                    </a>
-                </div>
-                <div>
-                    <a href="/" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
-                        Node Framework
-                    </a>
-                </div>
-                <div>
-                    <a href="/" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
-                        Rendering
-                    </a>
-                </div>
-                <div>
-                    <a href="/Projects" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
-                        Projects
-                    </a>
-                </div>
-                <div>
-                    <a href="/" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
-                        Terminal Commands
-                    </a>
-                </div>
-                <div>
-                    <a href="/contact" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover: rounded-lg">
+                    <a href="/contact" className="py-5 px-3 hover:bg-stone-800 hover:text-white hover:rounded-lg">
                         Contact
                     </a>
                 </div>

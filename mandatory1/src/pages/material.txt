@@ -4,7 +4,7 @@ About: done
 
 Contact: done
 
-DDCHECK! Clean code: Debugging (ESLint, Prettier - Promises, arrow functions vs normal functions, coding standards, imports etc.)
+DDCHECK! Clean code: Debugging (ESLint) vv, Promises, prettier vv, arrow functions vs normal functions, coding standards, imports etc.)
 
 Node.js, frameworks : node.js, express, etc. 
 

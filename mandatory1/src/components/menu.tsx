@@ -1,228 +1,156 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 
 function Menu() {
     return (
         <div className="grid grid-cols-2 gap-10 mt-10 mb-10 w-full">
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-                <Link to="/cleancode" className="menuHeadlines">
+                <a href="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Clean Code</p>
-                </Link>
+                </a>
+
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
                     <div className="menuSubCategories">
-                        <Link to="debugging" smooth={true} duration={500}>
-                            Debugging
-                        </Link>
+                        <a href="/cleancode/#debugging">Debugging</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="prettier" smooth={true} duration={500}>
-                            Prettier
-                        </Link>
+                        <a href="/cleancode/#prettier">Prettier</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="promises" smooth={true} duration={500}>
-                            Promises
-                        </Link>
+                        <a href="/cleancode/#promises">Promises</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="arrow-functions" smooth={true} duration={500}>
-                            Arrow vs Standard Functions
-                        </Link>
+                        <a href="/cleancode/#arrow-functions">Arrow vs Standard Functions</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="coding-standards" smooth={true} duration={500}>
-                            Coding Standards
-                        </Link>
+                        <a href="/cleancode/#coding-standards">Coding Standards</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="imports" smooth={true} duration={500}>
-                            Imports
-                        </Link>
+                        <a href="/cleancode/#imports">Imports</a>
                     </div>
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-                <Link to="/cleancode" className="menuHeadlines">
+                <a href="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Vercel</p>
-                </Link>
+                </a>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
                     <div className="menuSubCategories">
-                        <Link to="debugging" smooth={true} duration={500}>
-                            Debugging
-                        </Link>
+                        <a href="/cleancode/#debugging">Debugging</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="prettier" smooth={true} duration={500}>
-                            Prettier
-                        </Link>
+                        <a href="/cleancode/#prettier">Prettier</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="promises" smooth={true} duration={500}>
-                            Promises
-                        </Link>
+                        <a href="/cleancode/#promises">Promises</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="arrow-functions" smooth={true} duration={500}>
-                            Arrow vs Standard Functions
-                        </Link>
+                        <a href="/cleancode/#arrow-functions">Arrow vs Standard Functions</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="coding-standards" smooth={true} duration={500}>
-                            Coding Standards
-                        </Link>
+                        <a href="/cleancode/#coding-standards">Coding Standards</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="imports" smooth={true} duration={500}>
-                            Imports
-                        </Link>
+                        <a href="/cleancode/#imports">Imports</a>
                     </div>
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-                <Link to="/cleancode" className="menuHeadlines">
+                <a href="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Node Framework</p>
-                </Link>
+                </a>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
                     <div className="menuSubCategories">
-                        <Link to="debugging" smooth={true} duration={500}>
-                            Debugging
-                        </Link>
+                        <a href="/cleancode/#debugging">Debugging</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="prettier" smooth={true} duration={500}>
-                            Prettier
-                        </Link>
+                        <a href="/cleancode/#prettier">Prettier</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="promises" smooth={true} duration={500}>
-                            Promises
-                        </Link>
+                        <a href="/cleancode/#promises">Promises</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="arrow-functions" smooth={true} duration={500}>
-                            Arrow vs Standard Functions
-                        </Link>
+                        <a href="/cleancode/#arrow-functions">Arrow vs Standard Functions</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="coding-standards" smooth={true} duration={500}>
-                            Coding Standards
-                        </Link>
+                        <a href="/cleancode/#coding-standards">Coding Standards</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="imports" smooth={true} duration={500}>
-                            Imports
-                        </Link>
+                        <a href="/cleancode/#imports">Imports</a>
                     </div>
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-                <Link to="/cleancode" className="menuHeadlines">
+                <a href="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Rendering</p>
-                </Link>
+                </a>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
                     <div className="p-3 border bg-stone-400 hover:bg-stone-700 hover:text-white rounded-lg hover:cursor-pointer">
-                        <Link to="debugging" smooth={true} duration={500}>
-                            Debugging
-                        </Link>
+                        <a href="/cleancode/#debugging">Debugging</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="prettier" smooth={true} duration={500}>
-                            Prettier
-                        </Link>
+                        <a href="/cleancode/#prettier">Prettier</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="promises" smooth={true} duration={500}>
-                            Promises
-                        </Link>
+                        <a href="/cleancode/#promises">Promises</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="arrow-functions" smooth={true} duration={500}>
-                            Arrow vs Standard Functions
-                        </Link>
+                        <a href="/cleancode/#arrow-functions">Arrow vs Standard Functions</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="coding-standards" smooth={true} duration={500}>
-                            Coding Standards
-                        </Link>
+                        <a href="/cleancode/#coding-standards">Coding Standards</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="imports" smooth={true} duration={500}>
-                            Imports
-                        </Link>
+                        <a href="/cleancode/#imports">Imports</a>
                     </div>
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-                <Link to="/cleancode" className="menuHeadlines">
+                <a href="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Projects</p>
-                </Link>
+                </a>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
                     <div className="p-3 border bg-stone-400 hover:bg-stone-700 hover:text-white rounded-lg hover:cursor-pointer">
-                        <Link to="debugging" smooth={true} duration={500}>
-                            Debugging
-                        </Link>
+                        <a href="/cleancode/#debugging">Debugging</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="prettier" smooth={true} duration={500}>
-                            Prettier
-                        </Link>
+                        <a href="/cleancode/#prettier">Prettier</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="promises" smooth={true} duration={500}>
-                            Promises
-                        </Link>
+                        <a href="/cleancode/#promises">Promises</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="arrow-functions" smooth={true} duration={500}>
-                            Arrow vs Standard Functions
-                        </Link>
+                        <a href="/cleancode/#arrow-functions">Arrow vs Standard Functions</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="coding-standards" smooth={true} duration={500}>
-                            Coding Standards
-                        </Link>
+                        <a href="/cleancode/#coding-standards">Coding Standards</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="imports" smooth={true} duration={500}>
-                            Imports
-                        </Link>
+                        <a href="/cleancode/#imports">Imports</a>
                     </div>
                 </div>
             </div>
             <div className="group p-10 shadow-xl bg-stone-200 rounded-lg text-center relative">
-                <Link to="/cleancode" className="menuHeadlines">
+                <a href="/cleancode" className="menuHeadlines">
                     <p className="cursor-pointer">Terminal Commands</p>
-                </Link>
+                </a>
                 <div className="hidden group-hover:grid grid-cols-2 gap-4 mt-8">
                     <div className="p-3 border bg-stone-400 hover:bg-stone-700 hover:text-white rounded-lg hover:cursor-pointer">
-                        <Link to="debugging" smooth={true} duration={500}>
-                            Debugging
-                        </Link>
+                        <a href="/cleancode/#debugging">Debugging</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="prettier" smooth={true} duration={500}>
-                            Prettier
-                        </Link>
+                        <a href="/cleancode/#prettier">Prettier</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="promises" smooth={true} duration={500}>
-                            Promises
-                        </Link>
+                        <a href="/cleancode/#promises">Promises</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="arrow-functions" smooth={true} duration={500}>
-                            Arrow vs Standard Functions
-                        </Link>
+                        <a href="/cleancode/#arrow-functions">Arrow vs Standard Functions</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="coding-standards" smooth={true} duration={500}>
-                            Coding Standards
-                        </Link>
+                        <a href="/cleancode/#coding-standards">Coding Standards</a>
                     </div>
                     <div className="menuSubCategories">
-                        <Link to="imports" smooth={true} duration={500}>
-                            Imports
-                        </Link>
+                        <a href="/cleancode/#imports">Imports</a>
                     </div>
                 </div>
             </div>
